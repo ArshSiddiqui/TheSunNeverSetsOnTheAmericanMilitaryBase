@@ -7,9 +7,10 @@ request.onload = function() {
   //const riseSet = request.response;
   var data = JSON.parse(this.response)
   if (request.status >= 200 && request.status < 400){
-    data.forEach((results) => {
+    /*data.forEach((results) => {
       console.log(results.sunrise)
-    })
+    })*/
+    console.log(results);
   } else {
     console.log('error');
   }
