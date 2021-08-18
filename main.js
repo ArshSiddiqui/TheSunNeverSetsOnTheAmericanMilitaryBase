@@ -1,7 +1,63 @@
-setFireToTheSun('33.3152', '44.3661', 'Camp Victory, Baghdad, Iraq', "");
-setFireToTheSun('38.9072', '77.0369', 'The Pentagon, Washington, DC');
+/*var rawFile = new XMLHttpRequest();
+var allText = '';
+rawFile.open("GET", "militaryBase.txt", false);
+rawFile.onreadystatechange = function () {
+  if (rawFile.readyState === 4) {
+    if (rawFile.status === 200 || rawFile.status == 0) {
+      allText = rawFile.responseText;
+      alert(allText);
+    }
+  }
+}
 
-function setFireToTheSun(lat, long, loc) {
+for (let i = 0; i < 1; i++) {
+  let x = 0;
+
+  lat = '';
+  while (allText.charAt(x) != '/'){
+    lat += allText.charAt(x);
+    x++;
+  }
+
+  long = '';
+  while (allText.charAt(x) != '/'){
+    long += allText.charAt(x);
+    x++;
+  }
+
+  loc = '';
+  while (allText.charAt(x) != '/'){
+    lat += allText.charAt(x);
+    x++;
+  }
+
+  tm = '';
+  while (allText.charAt(x) != '/'){
+    lat += allText.charAt(x);
+    x++;
+  }
+
+  console.log(lat + long + loc + tm);
+  setFireToTheSun(lat, long, loc, parseInt(tm));
+  //setFireToTheSun('33.3152', '44.3661', 'Camp Victory, Baghdad, Iraq', 7);
+  //setFireToTheSun('38.9072', '77.0369', 'The Pentagon, Washington, DC', 0);
+}*/
+setFireToTheSun('33.3152', '44.3661', 'Camp Victory, Baghdad, Iraq', 7);
+setFireToTheSun('38.9072', '-77.0369', 'The Pentagon, Washington, DC', 0);
+setFireToTheSun('-23.37', '-132.34', 'Alice Springs, Northern Territory', 13.5);
+setFireToTheSun('16.9742', '-7.9865', 'Niger Air Base 201', 5);
+setFireToTheSun('48.7758', '-9.1829', 'Patch Barracks, Stuttgart, Germany', 6);
+setFireToTheSun('30.9685', '35.0971', 'Dimona Radar Facility, Israel', 7);
+setFireToTheSun('38.9072', '77.0369', 'The Pentagon, Washington, DC', 0);
+setFireToTheSun('38.9072', '77.0369', 'The Pentagon, Washington, DC', 0);
+setFireToTheSun('38.9072', '77.0369', 'The Pentagon, Washington, DC', 0);
+setFireToTheSun('38.9072', '77.0369', 'The Pentagon, Washington, DC', 0);
+setFireToTheSun('38.9072', '77.0369', 'The Pentagon, Washington, DC', 0);
+setFireToTheSun('38.9072', '77.0369', 'The Pentagon, Washington, DC', 0);
+
+
+
+function setFireToTheSun(lat, long, loc, tm) {
   var request = new XMLHttpRequest();
   request.open('GET', 'https://api.sunrise-sunset.org/json?lat='+lat+'&lng='+ long, true);
 
@@ -51,16 +107,15 @@ function setFireToTheSun(lat, long, loc) {
       let ssTime = (hourSs * 60 * 60) + (minSs * 60) + (12 * 60 * 60);
 
       //Current Time
-      var requestTZ = new XMLHttpRequest();
-      requestTZ.open('GET', 'https://maps.googleapis.com/maps/api/timezone/json?location='+lat+','+long, true);
-      let timeZone = '';
-      requestTZ.onload = function () {
-        var dataTZ = JSON.parse(this.response);
-        console.log(dataTZ);
-        //timeZone = data.
+      var now = new Date();
+      let currTime = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + (tm * 60 * 60);
+      if (currTime >= 24 * 60 * 60){
+        currTime -= 24 * 60 * 60;
       }
-      let currTime = (12 * 60 * 60) + (30 * 60);
 
+      console.log(currTime);
+      console.log(srTime);
+      console.log(ssTime);
 
       if (currTime >= srTime && currTime <= ssTime) {
         console.log("The Sun Never Sets on the American Military Base");
