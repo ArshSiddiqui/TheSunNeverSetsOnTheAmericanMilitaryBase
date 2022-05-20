@@ -71,17 +71,55 @@ function setFireToTheSun(lat, long, loc, tm) {
 				if (localTimeRequest.status >= 200 && localTimeRequest.status < 400){
 					console.log(localTimeData.formatted);
 					
+					
 					let x = 11
 					while (x < 19) {
-						currTime += localTimeData.formatted.charAt(x);
+						currTime += localTimeData.formatted.charAt(x)
+						x += 1;
 					}
 					
-					console.log(currTime);
+					currTimeHours = 0;
+					let y = 0;
+					while (currTime.charAt(y) != ":") {
+						currTimeHours += currTime.charAt(y);
+						y++;
+					}
+					let currTimeHoursNum = parseInt(currTimeHours);
 					
+					currTimeMins = 0;
+					y++;
+					while (currTime.charAt(y) != ":") {
+						currTimeMins += currTime.charAt(y);
+						y++;
+					}
+					let currTimeMinsNum = parseInt(currTimeMins);
+					
+					currTimeSecs = 0;
+					y++;
+					let z = y;
+					while (z <= y + 2) {
+						currTimeSecs += currTime.charAt(y);
+						z++;
+					}
+					let currTimeSecsNum = parseInt(currTimeSecs);
+					
+					let currTimeNum = (currTimeHoursNum * 60 * 60) + (currTimeMinsNum * 60) + currTimeSecsNum;
+					
+					console.log("Sunset Time: " + ssTime);
+					console.log("Local Time: " + currTimeNum);
+					
+					if (currTime >= srTime && currTime <= ssTime) {
+						console.log("The Sun Never Sets on the American Military Base");
+						var mb = document.getElementById("militaryBases");
+						var text = document.createTextNode(loc + "%0A");
+						mb.appendChild(text);
+					}
+							
 				}
 			}
 			
 			localTimeRequest.send();
+			
 			
 			
 			
@@ -95,15 +133,9 @@ function setFireToTheSun(lat, long, loc, tm) {
 			//console.log(srTime);
 			//console.log(ssTime);
 
-			if (currTime >= srTime && currTime <= ssTime) {
-				console.log("The Sun Never Sets on the American Military Base");
-				var mb = document.getElementById("militaryBases");
-				var text = document.createTextNode(loc + "%0A");
-				mb.appendChild(text);
-			}
-			} else {
+		} else {
 			console.log('error');
-			}
+		}
 	}
 
 	request.send();
