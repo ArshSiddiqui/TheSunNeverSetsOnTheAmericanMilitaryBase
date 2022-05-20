@@ -112,7 +112,7 @@ function setFireToTheSun(lat, long, loc) {
 					if (currTimeNum >= srTime && currTimeNum <= ssTime) {
 						console.log("The Sun Never Sets on the American Military Base");
 						var mb = document.getElementById("militaryBases");
-						var text = document.createTextNode(loc + "%0A");
+						var text = document.createTextNode(loc + "   ");
 						mb.appendChild(text);
 					}
 							
