@@ -1,19 +1,18 @@
-setFireToTheSun('33.3152', '44.3661', 'Camp Victory, Baghdad, Iraq', 7);
-setFireToTheSun('38.9072', '-77.0369', 'The Pentagon, Washington, DC', 0);
-setFireToTheSun('-23.37', '-132.34', 'Alice Springs, Northern Territory', 13.5);
-setFireToTheSun('16.9742', '-7.9865', 'Niger Air Base 201', 5);
-setFireToTheSun('48.7758', '-9.1829', 'Patch Barracks, Stuttgart, Germany', 6);
-setFireToTheSun('30.9685', '35.0971', 'Dimona Radar Facility, Israel', 7);
+setFireToTheSun('33.3152', '44.3661', 'Camp Victory, Baghdad, Iraq');
+setFireToTheSun('38.9072', '-77.0369', 'The Pentagon, Washington, DC');
+setFireToTheSun('-23.6980', '-133.8807', 'Alice Springs, Northern Territory');
+setFireToTheSun('16.9742', '-7.9865', 'Niger Air Base 201');
+setFireToTheSun('48.7758', '-9.1829', 'Patch Barracks, Stuttgart, Germany');
+setFireToTheSun('30.9685', '35.0971', 'Dimona Radar Facility, Israel');
 
 
-function setFireToTheSun(lat, long, loc, tm) {
-	
+function setFireToTheSun(lat, long, loc) {
 	var request = new XMLHttpRequest();
 	request.open('GET', 'https://api.sunrise-sunset.org/json?lat='+lat+'&lng='+ long, true);
-
+	setTimeout(() => {  console.log("------------------------Time wait"); }, 5000);
 	request.onload = function () {
 		var data = JSON.parse(this.response)
-
+		setTimeout(() => {  console.log("------------------------Time wait"); }, 5000);
 		if (request.status >= 200 && request.status < 400) {
 			console.log(loc);
 			console.log(data.results.sunrise);
@@ -59,6 +58,7 @@ function setFireToTheSun(lat, long, loc, tm) {
 
 			//Current Time
 			let currTime = "";
+			setTimeout(() => {  console.log("Time wait"); }, 5000);
 			var localTimeRequest = new XMLHttpRequest();
 			localTimeRequest.open('GET', 
 				'http://api.timezonedb.com/v2.1/get-time-zone?key=WE8AZKS4ECTQ&format=json&by=position&lat='+lat+'&lng=' + long, true);
@@ -105,10 +105,11 @@ function setFireToTheSun(lat, long, loc, tm) {
 					
 					let currTimeNum = (currTimeHoursNum * 60 * 60) + (currTimeMinsNum * 60) + currTimeSecsNum;
 					
-					console.log("Sunset Time: " + ssTime);
+					console.log("Sunrise Time: " + srTime);
 					console.log("Local Time: " + currTimeNum);
+					console.log("Sunset Time: " + ssTime);
 					
-					if (currTime >= srTime && currTime <= ssTime) {
+					if (currTimeNum >= srTime && currTimeNum <= ssTime) {
 						console.log("The Sun Never Sets on the American Military Base");
 						var mb = document.getElementById("militaryBases");
 						var text = document.createTextNode(loc + "%0A");
@@ -119,24 +120,12 @@ function setFireToTheSun(lat, long, loc, tm) {
 			}
 			
 			localTimeRequest.send();
+		
 			
-			
-			
-			
-			//var now = new Date();
-			//let currTime = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + (tm * 60 * 60);
-			//if (currTime >= 24 * 60 * 60){
-			//	currTime -= 24 * 60 * 60;
-			//}
-
-			//console.log(currTime);
-			//console.log(srTime);
-			//console.log(ssTime);
 
 		} else {
 			console.log('error');
 		}
 	}
-
 	request.send();
 }
