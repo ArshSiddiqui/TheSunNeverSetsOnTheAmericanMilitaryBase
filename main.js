@@ -1,21 +1,40 @@
-setFireToTheSun('33.3152', '44.3661', 'Camp Victory, Baghdad, Iraq');
-setFireToTheSun('38.9072', '-77.0369', 'The Pentagon, Washington, DC');
-setFireToTheSun('-23.6980', '-133.8807', 'Alice Springs, Northern Territory');
-setFireToTheSun('16.9742', '-7.9865', 'Niger Air Base 201');
-setFireToTheSun('48.7758', '-9.1829', 'Patch Barracks, Stuttgart, Germany');
-setFireToTheSun('30.9685', '35.0971', 'Dimona Radar Facility, Israel');
+//var list;
 
+//ajax({
+//	url: "AmericanBases.json",
+//	dataType: "json",
+//}).done(function(resp, status) {
+//	list = resp;
+//	load_file
+//})
 
-function setFireToTheSun(lat, long, loc) {
+//console.log(list);
+
+//let thevar = setTimeout(setFireToTheSun, 5000);
+
+setTimeout(() => {  setFireToTheSun('33.3152', '44.3661', 'Camp Victory, Baghdad, Iraq'); }, 1000);
+setTimeout(() => { setFireToTheSun('38.9072', '-77.0369', 'The Pentagon, Washington, DC');  }, 2000);
+setTimeout(() => { setFireToTheSun('-23.6980', '-133.8807', 'Alice Springs, Northern Territory');  }, 3000);
+setTimeout(() => { setFireToTheSun('16.9742', '-7.9865', 'Niger Air Base 201');  }, 4000);
+setTimeout(() => { setFireToTheSun('48.7758', '-9.1829', 'Patch Barracks, Stuttgart, Germany');  }, 5000);
+setTimeout(() => {  setFireToTheSun('30.9685', '35.0971', 'Dimona Radar Facility, Israel'); }, 6000);
+
+//setFireToTheSun('33.3152', '44.3661', 'Camp Victory, Baghdad, Iraq');
+//setFireToTheSun('38.9072', '-77.0369', 'The Pentagon, Washington, DC');
+//setFireToTheSun('-23.6980', '-133.8807', 'Alice Springs, Northern Territory');
+//setFireToTheSun('16.9742', '-7.9865', 'Niger Air Base 201');
+//setFireToTheSun('48.7758', '-9.1829', 'Patch Barracks, Stuttgart, Germany');
+//setFireToTheSun('30.9685', '35.0971', 'Dimona Radar Facility, Israel');
+
+function setFireToTheSun(lat, lng, loc) {
 	var request = new XMLHttpRequest();
-	request.open('GET', 'https://api.sunrise-sunset.org/json?lat='+lat+'&lng='+ long, true);
+	request.open('GET', 'https://api.sunrise-sunset.org/json?lat='+lat+'&lng='+ lng, true);
 	request.onload = function () {
-		var data = JSON.parse(this.response)
-		#setTimeout(() => {  console.log("------------------------Time wait"); }, 5000);
+		var data = JSON.parse(this.response);
 		if (request.status >= 200 && request.status < 400) {
 			console.log(loc);
-			console.log(data.results.sunrise);
-			console.log(data.results.sunset);
+			console.log("sunrise: " + data.results.sunrise);
+			console.log("sunset: " + data.results.sunset);
 
 			//Sunrise Time
 			let strH = "";
@@ -58,16 +77,19 @@ function setFireToTheSun(lat, long, loc) {
 			//Current Time
 			let currTime = "";
 			var localTimeRequest = new XMLHttpRequest();
+			//setTimeout(() => {  localTimeRequest = new XMLHttpRequest(); }, 5000);
 			localTimeRequest.open('GET', 
-				'http://api.timezonedb.com/v2.1/get-time-zone?key=WE8AZKS4ECTQ&format=json&by=position&lat='+lat+'&lng=' + long, true);
+				'http://api.timezonedb.com/v2.1/get-time-zone?key=WE8AZKS4ECTQ&format=json&by=position&lat='+lat+'&lng=' + lng, true);
 			
-			console.log("Latitude = " + lat + " Longitude = " + long);
+			console.log("Latitude = " + lat + " Longitude = " + lng);
 			
 			localTimeRequest.onload = function () {
+				
 				var localTimeData = JSON.parse(localTimeRequest.response);
 				
+				
 				if (localTimeRequest.status >= 200 && localTimeRequest.status < 400){
-					console.log(localTimeData.formatted);
+					console.log(loc + " local time: " + localTimeData.formatted);
 					
 					
 					let x = 11
@@ -103,14 +125,11 @@ function setFireToTheSun(lat, long, loc) {
 					
 					let currTimeNum = (currTimeHoursNum * 60 * 60) + (currTimeMinsNum * 60) + currTimeSecsNum;
 					
-					console.log("Sunrise Time: " + srTime);
-					console.log("Local Time: " + currTimeNum);
-					console.log("Sunset Time: " + ssTime);
 					
 					if (currTimeNum >= srTime && currTimeNum <= ssTime) {
 						console.log("The Sun Never Sets on the American Military Base");
 						var mb = document.getElementById("militaryBases");
-						var text = document.createTextNode(loc + "   ");
+						var text = document.createTextNode(loc + "    ");
 						mb.appendChild(text);
 					}
 							
@@ -127,3 +146,6 @@ function setFireToTheSun(lat, long, loc) {
 	}
 	request.send();
 }
+
+
+
