@@ -9,10 +9,9 @@ setFireToTheSun('30.9685', '35.0971', 'Dimona Radar Facility, Israel');
 function setFireToTheSun(lat, long, loc) {
 	var request = new XMLHttpRequest();
 	request.open('GET', 'https://api.sunrise-sunset.org/json?lat='+lat+'&lng='+ long, true);
-	setTimeout(() => {  console.log("------------------------Time wait"); }, 5000);
 	request.onload = function () {
 		var data = JSON.parse(this.response)
-		setTimeout(() => {  console.log("------------------------Time wait"); }, 5000);
+		#setTimeout(() => {  console.log("------------------------Time wait"); }, 5000);
 		if (request.status >= 200 && request.status < 400) {
 			console.log(loc);
 			console.log(data.results.sunrise);
@@ -58,7 +57,6 @@ function setFireToTheSun(lat, long, loc) {
 
 			//Current Time
 			let currTime = "";
-			setTimeout(() => {  console.log("Time wait"); }, 5000);
 			var localTimeRequest = new XMLHttpRequest();
 			localTimeRequest.open('GET', 
 				'http://api.timezonedb.com/v2.1/get-time-zone?key=WE8AZKS4ECTQ&format=json&by=position&lat='+lat+'&lng=' + long, true);
