@@ -12,6 +12,8 @@
 
 //let thevar = setTimeout(setFireToTheSun, 5000);
 
+var index = 0;
+
 setTimeout(() => {  setFireToTheSun('33.3152', '44.3661', 'Camp Victory, Baghdad, Iraq'); }, 1000);
 setTimeout(() => { setFireToTheSun('38.9072', '-77.0369', 'The Pentagon, Washington, DC');  }, 2000);
 setTimeout(() => { setFireToTheSun('-23.6980', '-133.8807', 'Alice Springs, Northern Territory');  }, 3000);
@@ -128,9 +130,14 @@ function setFireToTheSun(lat, lng, loc) {
 					
 					if (currTimeNum >= srTime && currTimeNum <= ssTime) {
 						console.log("The Sun Never Sets on the American Military Base");
-						var mb = document.getElementById("militaryBases");
-						var text = document.createTextNode(loc + "    ");
-						mb.appendChild(text);
+						//var mb = document.getElementById("militaryBases");
+						//var text = document.createTextNode(loc + "    ");
+						//mb.appendChild(text);
+						const block = document.createElement("p");
+						const node = document.createTextNode(loc);
+						block.appendChild(node);
+						const elem = document.getElementById("militaryBases");
+						elem.appendChild(block);
 					}
 							
 				}
