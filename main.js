@@ -12,8 +12,6 @@ function readTextFile(file, callback) {
 	rawFile.overrideMimeType("application/json");
 	rawFile.open("GET", file, true);
 	rawFile.onreadystatechange = function() {
-		console.log("rawFile.readyState = " + rawFile.readyState);
-		console.log("rawFile.status = " + rawFile.status);
 		if (rawFile.readyState === 4 && rawFile.status === 200) {
 			console.log("in the block");
 			callback(rawFile.responseText);
@@ -22,26 +20,20 @@ function readTextFile(file, callback) {
 	rawFile.send(null);
 }
 
-var i = 0;
 console.log("-------------------------------");
 readTextFile("https://raw.githubusercontent.com/ArshSiddiqui/TheSunNeverSetsOnTheAmericanMilitaryBase/main/AmericanBases.json", function(text) {
 	console.log("inside");
 	var data = JSON.parse(text);
-	console.log(data);
-	var newStringedData = JSON.stringify(data).replaceAll('"name"', "name");
-	console.log(newStringedData);
-	var updatedData = JSON.parse(newStringedData);
-	console.log(updatedData[0]);
+	console.log(text);
+	setFireToTheSun(data[0].lat, data[0].long, data[0].name);
 })
 
-var index = 0;
-
-setTimeout(() => {  setFireToTheSun('33.3152', '44.3661', 'Camp Victory, Baghdad, Iraq'); }, 1000);
+/*setTimeout(() => {  setFireToTheSun('33.3152', '44.3661', 'Camp Victory, Baghdad, Iraq'); }, 1000);
 setTimeout(() => { setFireToTheSun('38.9072', '-77.0369', 'The Pentagon, Washington, DC');  }, 2000);
 setTimeout(() => { setFireToTheSun('-23.6980', '-133.8807', 'Alice Springs, Northern Territory');  }, 3000);
 setTimeout(() => { setFireToTheSun('16.9742', '-7.9865', 'Niger Air Base 201');  }, 4000);
 setTimeout(() => { setFireToTheSun('48.7758', '-9.1829', 'Patch Barracks, Stuttgart, Germany');  }, 5000);
-setTimeout(() => {  setFireToTheSun('30.9685', '35.0971', 'Dimona Radar Facility, Israel'); }, 6000);
+setTimeout(() => {  setFireToTheSun('30.9685', '35.0971', 'Dimona Radar Facility, Israel'); }, 6000);*/
 
 
 function setFireToTheSun(lat, lng, loc) {
