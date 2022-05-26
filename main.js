@@ -1,12 +1,5 @@
 //main.js
 
-//const jsonData = require('AmericanBases.json');
-//console.log(jsonData);
-
-//fetch('AmericanBases.json').then(response => {
-//	return respones.json();
-//}).then(jsondata => console.log(jsondata));
-
 function readTextFile(file, callback) {
 	var rawFile = new XMLHttpRequest();
 	rawFile.overrideMimeType("application/json");
@@ -25,7 +18,13 @@ readTextFile("https://raw.githubusercontent.com/ArshSiddiqui/TheSunNeverSetsOnTh
 	console.log("inside");
 	var data = JSON.parse(text);
 	console.log(text);
-	setFireToTheSun(data[0].lat, data[0].long, data[0].name);
+	var timeout = 1000;
+	for (let i = 0; i <= 50; i++) { //Don't run with this, will mess with the API
+		setTimeout ( () => {
+			setFireToTheSun(data[i].lat, data[i].long, data[i].name);
+			timeout += 1000;
+		}, timeout)
+	}
 })
 
 /*setTimeout(() => {  setFireToTheSun('33.3152', '44.3661', 'Camp Victory, Baghdad, Iraq'); }, 1000);
