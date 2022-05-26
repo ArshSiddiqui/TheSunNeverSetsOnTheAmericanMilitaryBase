@@ -1,16 +1,38 @@
-//var list;
+//main.js
 
-//ajax({
-//	url: "AmericanBases.json",
-//	dataType: "json",
-//}).done(function(resp, status) {
-//	list = resp;
-//	load_file
-//})
+//const jsonData = require('AmericanBases.json');
+//console.log(jsonData);
 
-//console.log(list);
+//fetch('AmericanBases.json').then(response => {
+//	return respones.json();
+//}).then(jsondata => console.log(jsondata));
 
-//let thevar = setTimeout(setFireToTheSun, 5000);
+function readTextFile(file, callback) {
+	var rawFile = new XMLHttpRequest();
+	rawFile.overrideMimeType("application/json");
+	rawFile.open("GET", file, true);
+	rawFile.onreadystatechange = function() {
+		console.log("rawFile.readyState = " + rawFile.readyState);
+		console.log("rawFile.status = " + rawFile.status);
+		if (rawFile.readyState === 4 && rawFile.status === 200) {
+			console.log("in the block");
+			callback(rawFile.responseText);
+		}
+	}
+	rawFile.send(null);
+}
+
+var i = 0;
+console.log("-------------------------------");
+readTextFile("https://raw.githubusercontent.com/ArshSiddiqui/TheSunNeverSetsOnTheAmericanMilitaryBase/main/AmericanBases.json", function(text) {
+	console.log("inside");
+	var data = JSON.parse(text);
+	console.log(data);
+	var newStringedData = JSON.stringify(data).replaceAll('"name"', "name");
+	console.log(newStringedData);
+	var updatedData = JSON.parse(newStringedData);
+	console.log(updatedData[0]);
+})
 
 var index = 0;
 
@@ -21,12 +43,6 @@ setTimeout(() => { setFireToTheSun('16.9742', '-7.9865', 'Niger Air Base 201'); 
 setTimeout(() => { setFireToTheSun('48.7758', '-9.1829', 'Patch Barracks, Stuttgart, Germany');  }, 5000);
 setTimeout(() => {  setFireToTheSun('30.9685', '35.0971', 'Dimona Radar Facility, Israel'); }, 6000);
 
-//setFireToTheSun('33.3152', '44.3661', 'Camp Victory, Baghdad, Iraq');
-//setFireToTheSun('38.9072', '-77.0369', 'The Pentagon, Washington, DC');
-//setFireToTheSun('-23.6980', '-133.8807', 'Alice Springs, Northern Territory');
-//setFireToTheSun('16.9742', '-7.9865', 'Niger Air Base 201');
-//setFireToTheSun('48.7758', '-9.1829', 'Patch Barracks, Stuttgart, Germany');
-//setFireToTheSun('30.9685', '35.0971', 'Dimona Radar Facility, Israel');
 
 function setFireToTheSun(lat, lng, loc) {
 	var request = new XMLHttpRequest();
@@ -130,9 +146,6 @@ function setFireToTheSun(lat, lng, loc) {
 					
 					if (currTimeNum >= srTime && currTimeNum <= ssTime) {
 						console.log("The Sun Never Sets on the American Military Base");
-						//var mb = document.getElementById("militaryBases");
-						//var text = document.createTextNode(loc + "    ");
-						//mb.appendChild(text);
 						const block = document.createElement("p");
 						const node = document.createTextNode(loc);
 						block.appendChild(node);

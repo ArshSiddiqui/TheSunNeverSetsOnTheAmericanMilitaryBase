@@ -1,1002 +1,1169 @@
 [
     {
-        "﻿name": "NG Springfield AVCRAD (New)",
+        "﻿index": "1",
+        "name": "NG Springfield AVCRAD (New)",
         "location": "Missouri",
         "lat": "37.25327548",
         "long": "-93.39095789"
     },
     {
-        "﻿name": "NG Alcantra Armory Complex",
+        "﻿index": "2",
+        "name": "NG Alcantra Armory Complex",
         "location": "Alaska",
         "lat": "61.60305033",
         "long": "-149.3748498"
     },
     {
-        "﻿name": "NG Camp Adair Corvallis",
+        "﻿index": "3",
+        "name": "NG Camp Adair Corvallis",
         "location": "Oregon",
         "lat": "44.71433608",
         "long": "-123.2706959"
     },
     {
-        "﻿name": "NG Kalaeloa",
+        "﻿index": "4",
+        "name": "NG Kalaeloa",
         "location": "Hawaii",
         "lat": "21.31899173",
         "long": "-158.0624848"
     },
     {
-        "﻿name": "Aiea",
+        "﻿index": "5",
+        "name": "Aiea",
         "location": "Hawaii",
         "lat": "21.37351527",
         "long": "-157.9379877"
     },
     {
-        "﻿name": "Ewa",
+        "﻿index": "6",
+        "name": "Ewa",
         "location": "Hawaii",
         "lat": "21.33887774",
         "long": "-157.9951393"
     },
     {
-        "﻿name": "Sewage Evaporation Pond",
+        "﻿index": "7",
+        "name": "Sewage Evaporation Pond",
         "location": "California",
         "lat": "36.24376468",
         "long": "-119.883529"
     },
     {
-        "﻿name": "Moody AFB",
+        "﻿index": "8",
+        "name": "Moody AFB",
         "location": "Georgia",
         "lat": "30.97252768",
         "long": "-83.16469304"
     },
     {
-        "﻿name": "Brown 4b Stagefield AL",
+        "﻿index": "9",
+        "name": "Brown 4b Stagefield AL",
         "location": "Alabama",
         "lat": "31.38631909",
         "long": "-85.97227165"
     },
     {
-        "﻿name": "Toth Stagefield AL",
+        "﻿index": "10",
+        "name": "Toth Stagefield AL",
         "location": "Alabama",
         "lat": "31.22858447",
         "long": "-85.55870947"
     },
     {
-        "﻿name": "Schofield Barracks Military Reservation",
+        "﻿index": "11",
+        "name": "Schofield Barracks Military Reservation",
         "location": "Hawaii",
         "lat": "21.49560349",
         "long": "-158.0532398"
     },
     {
-        "﻿name": "Fort Hamilton",
+        "﻿index": "12",
+        "name": "Fort Hamilton",
         "location": "New York",
         "lat": "40.60899676",
         "long": "-74.02945006"
     },
     {
-        "﻿name": "Iowa AAP",
+        "﻿index": "13",
+        "name": "Iowa AAP",
         "location": "Iowa",
         "lat": "40.79200259",
         "long": "-91.2456158"
     },
     {
-        "﻿name": "ALF Bogue",
+        "﻿index": "14",
+        "name": "ALF Bogue",
         "location": "North Carolina",
         "lat": "34.69285056",
         "long": "-77.02868256"
     },
     {
-        "﻿name": "Naval Weapons Station Earle NJ",
+        "﻿index": "15",
+        "name": "Naval Weapons Station Earle NJ",
         "location": "New Jersey",
         "lat": "40.2538572",
         "long": "-74.16084834"
     },
     {
-        "﻿name": "NAVSUPPACT Hampton Roads VA",
+        "﻿index": "16",
+        "name": "NAVSUPPACT Hampton Roads VA",
         "location": "Virginia",
         "lat": "36.92501529",
         "long": "-76.29961097"
     },
     {
-        "﻿name": "Det Philadelphia PA",
+        "﻿index": "17",
+        "name": "Det Philadelphia PA",
         "location": "Pennsylvania",
         "lat": "40.04130307",
         "long": "-75.09458127"
     },
     {
-        "﻿name": "NAVBASE Guam",
+        "﻿index": "18",
+        "name": "NAVBASE Guam",
         "location": "Guam",
         "lat": "13.42863258",
         "long": "144.6534641"
     },
     {
-        "﻿name": "NAS Meridian MS",
+        "﻿index": "19",
+        "name": "NAS Meridian MS",
         "location": "Mississippi",
         "lat": "32.55319141",
         "long": "-88.56951313"
     },
     {
-        "﻿name": "NAVSUPPACT Midsouth Memphis TN",
+        "﻿index": "20",
+        "name": "NAVSUPPACT Midsouth Memphis TN",
         "location": "Tennessee",
         "lat": "35.33142423",
         "long": "-89.8707838"
     },
     {
-        "﻿name": "Eglin AFB (Eglin Main and Reservation)",
+        "﻿index": "21",
+        "name": "Eglin AFB (Eglin Main and Reservation)",
         "location": "Florida",
         "lat": "30.57593762",
         "long": "-86.52837335"
     },
     {
-        "﻿name": "Bradley IAP",
+        "﻿index": "22",
+        "name": "Bradley IAP",
         "location": "Connecticut",
         "lat": "41.93499405",
         "long": "-72.70125041"
     },
     {
-        "﻿name": "New Castle Airport",
+        "﻿index": "23",
+        "name": "New Castle Airport",
         "location": "Delaware",
         "lat": "39.68650969",
         "long": "-75.59755622"
     },
     {
-        "﻿name": "Pease ANGB",
+        "﻿index": "24",
+        "name": "Pease ANGB",
         "location": "New Hampshire",
         "lat": "43.08908549",
         "long": "-70.81873077"
     },
     {
-        "﻿name": "Savannah/Hilton Head IAP",
+        "﻿index": "25",
+        "name": "Savannah/Hilton Head IAP",
         "location": "Georgia",
         "lat": "32.12642039",
         "long": "-81.18975656"
     },
     {
-        "﻿name": "MacDill AFB",
+        "﻿index": "26",
+        "name": "MacDill AFB",
         "location": "Florida",
         "lat": "27.84360837",
         "long": "-82.50102275"
     },
     {
-        "﻿name": "NG TS Clark Natl Forest Wapp",
+        "﻿index": "27",
+        "name": "NG TS Clark Natl Forest Wapp",
         "location": "Missouri",
         "lat": "36.89151922",
         "long": "-90.27996652"
     },
     {
-        "﻿name": "NG Rosemount NG Armory",
+        "﻿index": "28",
+        "name": "NG Rosemount NG Armory",
         "location": "Minnesota",
         "lat": "44.74774848",
         "long": "-93.12760544"
     },
     {
-        "﻿name": "Holtville Carrier LS",
+        "﻿index": "29",
+        "name": "Holtville Carrier LS",
         "location": "California",
         "lat": "32.83855695",
         "long": "-115.258178"
     },
     {
-        "﻿name": "West Bank",
+        "﻿index": "30",
+        "name": "West Bank",
         "location": "Louisiana",
         "lat": "29.94883089",
         "long": "-90.03289968"
     },
     {
-        "﻿name": "NOLF Summerdale",
+        "﻿index": "31",
+        "name": "NOLF Summerdale",
         "location": "Alabama",
         "lat": "30.50803898",
         "long": "-87.64719463"
     },
     {
-        "﻿name": "Santa Rosa Parcel B",
+        "﻿index": "32",
+        "name": "Santa Rosa Parcel B",
         "location": "Guam",
         "lat": "13.53586268",
         "long": "144.9148044"
     },
     {
-        "﻿name": "Sheppard AFB",
+        "﻿index": "33",
+        "name": "Sheppard AFB",
         "location": "Texas",
         "lat": "33.98455239",
         "long": "-98.49969368"
     },
     {
-        "﻿name": "OLF Coupeville",
+        "﻿index": "34",
+        "name": "OLF Coupeville",
         "location": "Washington",
         "lat": "48.18960058",
         "long": "-122.6324423"
     },
     {
-        "﻿name": "Mountain Home AFB",
+        "﻿index": "35",
+        "name": "Mountain Home AFB",
         "location": "Idaho",
         "lat": "43.04894023",
         "long": "-115.8658803"
     },
     {
-        "﻿name": "Beale AFB",
+        "﻿index": "36",
+        "name": "Beale AFB",
         "location": "California",
         "lat": "39.12105698",
         "long": "-121.3954652"
     },
     {
-        "﻿name": "MCB Camp Lejeune (East Site)",
+        "﻿index": "37",
+        "name": "MCB Camp Lejeune (East Site)",
         "location": "North Carolina",
         "lat": "34.64335799",
         "long": "-77.30510405"
     },
     {
-        "﻿name": "Patrick AFB",
+        "﻿index": "38",
+        "name": "Patrick AFB",
         "location": "Florida",
         "lat": "28.23386934",
         "long": "-80.60800752"
     },
     {
-        "﻿name": "Goldberg Stagefield AL",
+        "﻿index": "39",
+        "name": "Goldberg Stagefield AL",
         "location": "Alabama",
         "lat": "31.4151605",
         "long": "-85.46340251"
     },
     {
-        "﻿name": "Wheeler Army Airfield",
+        "﻿index": "40",
+        "name": "Wheeler Army Airfield",
         "location": "Hawaii",
         "lat": "21.47541225",
         "long": "-158.0355368"
     },
     {
-        "﻿name": "Milan AAP",
+        "﻿index": "41",
+        "name": "Milan AAP",
         "location": "Tennessee",
         "lat": "35.87383818",
         "long": "-88.70612844"
     },
     {
-        "﻿name": "Longhorn AAP",
+        "﻿index": "42",
+        "name": "Longhorn AAP",
         "location": "Texas",
         "lat": "32.67503031",
         "long": "-94.13387776"
     },
     {
-        "﻿name": "Camp Frank D Merrill",
+        "﻿index": "43",
+        "name": "Camp Frank D Merrill",
         "location": "Georgia",
         "lat": "34.71046392",
         "long": "-84.16587636"
     },
     {
-        "﻿name": "Allegany Ballistics Lab",
+        "﻿index": "44",
+        "name": "Allegany Ballistics Lab",
         "location": "West Virginia",
         "lat": "39.54925304",
         "long": "-78.84573454"
     },
     {
-        "﻿name": "Nimitz Hill",
+        "﻿index": "45",
+        "name": "Nimitz Hill",
         "location": "Guam",
         "lat": "13.4658622",
         "long": "144.7232042"
     },
     {
-        "﻿name": "White Bluff",
+        "﻿index": "46",
+        "name": "White Bluff",
         "location": "Washington",
         "lat": "47.70271344",
         "long": "-117.5775085"
     },
     {
-        "﻿name": "The Barry M Goldwater Air Force Range",
+        "﻿index": "47",
+        "name": "The Barry M Goldwater Air Force Range",
         "location": "Arizona",
         "lat": "32.64061507",
         "long": "-113.0558683"
     },
     {
-        "﻿name": "NG Hammond Airport",
+        "﻿index": "48",
+        "name": "NG Hammond Airport",
         "location": "Louisiana",
         "lat": "30.52309823",
         "long": "-90.41218254"
     },
     {
-        "﻿name": "NG MTA Clarks Hill Reservation",
+        "﻿index": "49",
+        "name": "NG MTA Clarks Hill Reservation",
         "location": "South Carolina",
         "lat": "33.79443945",
         "long": "-82.27777063"
     },
     {
-        "﻿name": "NG Lane County AFRC FMS 5",
+        "﻿index": "50",
+        "name": "NG Lane County AFRC FMS 5",
         "location": "Oregon",
         "lat": "44.06566794",
         "long": "-122.9777834"
     },
     {
-        "﻿name": "NG Bog Brook Training Site",
+        "﻿index": "51",
+        "name": "NG Bog Brook Training Site",
         "location": "Maine",
         "lat": "44.39651203",
         "long": "-70.93654099"
     },
     {
-        "﻿name": "San Pedro Fuel Depot",
+        "﻿index": "52",
+        "name": "San Pedro Fuel Depot",
         "location": "California",
         "lat": "33.77305325",
         "long": "-118.3010273"
     },
     {
-        "﻿name": "Target 101 Shade Tree",
+        "﻿index": "53",
+        "name": "Target 101 Shade Tree",
         "location": "California",
         "lat": "32.94895668",
         "long": "-115.7506566"
     },
     {
-        "﻿name": "Ramey AF Solar Observatory Research Site",
+        "﻿index": "54",
+        "name": "Ramey AF Solar Observatory Research Site",
         "location": "Puerto Rico",
         "lat": "18.50943271",
         "long": "-67.09912881"
     },
     {
-        "﻿name": "Nellis Air Force Range",
+        "﻿index": "55",
+        "name": "Nellis Air Force Range",
         "location": "Nevada",
         "lat": "37.30639721",
         "long": "-116.19855"
     },
     {
-        "﻿name": "Tac X Stagefield AL",
+        "﻿index": "56",
+        "name": "Tac X Stagefield AL",
         "location": "Alabama",
         "lat": "31.12253739",
         "long": "-85.97909652"
     },
     {
-        "﻿name": "Fort Lewis",
+        "﻿index": "57",
+        "name": "Fort Lewis",
         "location": "Washington",
         "lat": "47.05447405",
         "long": "-122.5527009"
     },
     {
-        "﻿name": "Hunter Army Airfield",
+        "﻿index": "58",
+        "name": "Hunter Army Airfield",
         "location": "Georgia",
         "lat": "32.00965651",
         "long": "-81.15356019"
     },
     {
-        "﻿name": "Green River Test Complex UT",
+        "﻿index": "59",
+        "name": "Green River Test Complex UT",
         "location": "Utah",
         "lat": "38.95840202",
         "long": "-110.0969892"
     },
     {
-        "﻿name": "Apra Heights",
+        "﻿index": "60",
+        "name": "Apra Heights",
         "location": "Guam",
         "lat": "13.4015825",
         "long": "144.6786799"
     },
     {
-        "﻿name": "Andy South",
+        "﻿index": "61",
+        "name": "Andy South",
         "location": "Guam",
         "lat": "13.5080102",
         "long": "144.865759"
     },
     {
-        "﻿name": "Marysville WA",
+        "﻿index": "62",
+        "name": "Marysville WA",
         "location": "Washington",
         "lat": "48.12370346",
         "long": "-122.171056"
     },
     {
-        "﻿name": "Laughlin AFB Aux 1",
+        "﻿index": "63",
+        "name": "Laughlin AFB Aux 1",
         "location": "Texas",
         "lat": "29.11838653",
         "long": "-100.4722935"
     },
     {
-        "﻿name": "Joint Base Charleston Naval Weapons Station",
+        "﻿index": "64",
+        "name": "Joint Base Charleston Naval Weapons Station",
         "location": "South Carolina",
         "lat": "32.96292793",
         "long": "-79.96357248"
     },
     {
-        "﻿name": "Luke Waste Annex",
+        "﻿index": "65",
+        "name": "Luke Waste Annex",
         "location": "Arizona",
         "lat": "33.5384063",
         "long": "-112.3217623"
     },
     {
-        "﻿name": "Great Falls IAP",
+        "﻿index": "66",
+        "name": "Great Falls IAP",
         "location": "Montana",
         "lat": "47.4765456",
         "long": "-111.3649796"
     },
     {
-        "﻿name": "Hector IAP",
+        "﻿index": "67",
+        "name": "Hector IAP",
         "location": "North Dakota",
         "lat": "46.91372241",
         "long": "-96.80446443"
     },
     {
-        "﻿name": "Stewart IAP",
+        "﻿index": "68",
+        "name": "Stewart IAP",
         "location": "New York",
         "lat": "41.50140528",
         "long": "-74.08434535"
     },
     {
-        "﻿name": "Burlington IAP",
+        "﻿index": "69",
+        "name": "Burlington IAP",
         "location": "Vermont",
         "lat": "44.47442785",
         "long": "-73.14789682"
     },
     {
-        "﻿name": "Canyon Lake Recreation Annex",
+        "﻿index": "70",
+        "name": "Canyon Lake Recreation Annex",
         "location": "Texas",
         "lat": "29.8846194",
         "long": "-98.21938126"
     },
     {
-        "﻿name": "NG Camp Dodge Johnston TS",
+        "﻿index": "71",
+        "name": "NG Camp Dodge Johnston TS",
         "location": "Iowa",
         "lat": "41.81021516",
         "long": "-93.78130259"
     },
     {
-        "﻿name": "NG Fort Indiantown Gap",
+        "﻿index": "72",
+        "name": "NG Fort Indiantown Gap",
         "location": "Pennsylvania",
         "lat": "40.43594672",
         "long": "-76.62969046"
     },
     {
-        "﻿name": "NG Fort Wolters",
+        "﻿index": "73",
+        "name": "NG Fort Wolters",
         "location": "Texas",
         "lat": "32.8648657",
         "long": "-98.0295708"
     },
     {
-        "﻿name": "NG Beauregard Training Range",
+        "﻿index": "74",
+        "name": "NG Beauregard Training Range",
         "location": "Louisiana",
         "lat": "31.43941968",
         "long": "-92.29555591"
     },
     {
-        "﻿name": "NG ITC Camp San Luis Obisbo",
+        "﻿index": "75",
+        "name": "NG ITC Camp San Luis Obisbo",
         "location": "California",
         "lat": "35.3391521",
         "long": "-120.703075"
     },
     {
-        "﻿name": "NG Ft Allen Rq 177",
+        "﻿index": "76",
+        "name": "NG Ft Allen Rq 177",
         "location": "Puerto Rico",
         "lat": "18.01304105",
         "long": "-66.50565158"
     },
     {
-        "﻿name": "NG TS Ethan Allen Range",
+        "﻿index": "77",
+        "name": "NG TS Ethan Allen Range",
         "location": "Vermont",
         "lat": "44.47172658",
         "long": "-72.89653884"
     },
     {
-        "﻿name": "NG Gulfport AVCRAD",
+        "﻿index": "78",
+        "name": "NG Gulfport AVCRAD",
         "location": "Mississippi",
         "lat": "30.41618689",
         "long": "-89.06287443"
     },
     {
-        "﻿name": "NG Camp Swift",
+        "﻿index": "79",
+        "name": "NG Camp Swift",
         "location": "Texas",
         "lat": "30.26166995",
         "long": "-97.2945537"
     },
     {
-        "﻿name": "JBAB Anacostia Bolling",
+        "﻿index": "80",
+        "name": "JBAB Anacostia Bolling",
         "location": "District of Columbia",
         "lat": "38.84487515",
         "long": "-77.01473355"
     },
     {
-        "﻿name": "Honolulu",
+        "﻿index": "81",
+        "name": "Honolulu",
         "location": "Hawaii",
         "lat": "21.34629934",
         "long": "-157.9220477"
     },
     {
-        "﻿name": "NAS JRB New Orleans LA",
+        "﻿index": "82",
+        "name": "NAS JRB New Orleans LA",
         "location": "Louisiana",
         "lat": "29.83136319",
         "long": "-90.02086679"
     },
     {
-        "﻿name": "NOLF Spencer",
+        "﻿index": "83",
+        "name": "NOLF Spencer",
         "location": "Florida",
         "lat": "30.62531664",
         "long": "-87.13982752"
     },
     {
-        "﻿name": "NOTU Cape Canaveral",
+        "﻿index": "84",
+        "name": "NOTU Cape Canaveral",
         "location": "Florida",
         "lat": "28.42826398",
         "long": "-80.58842676"
     },
     {
-        "﻿name": "NAVWPNSYSTRAFAC Boardman",
+        "﻿index": "85",
+        "name": "NAVWPNSYSTRAFAC Boardman",
         "location": "Oregon",
         "lat": "45.72074181",
         "long": "-119.6874352"
     },
     {
-        "﻿name": "NAVSTA Everett WA",
+        "﻿index": "86",
+        "name": "NAVSTA Everett WA",
         "location": "Washington",
         "lat": "47.98831568",
         "long": "-122.223175"
     },
     {
-        "﻿name": "NAS Whidbey Island WA",
+        "﻿index": "87",
+        "name": "NAS Whidbey Island WA",
         "location": "Washington",
         "lat": "48.33863782",
         "long": "-122.6615009"
     },
     {
-        "﻿name": "Redstone Arsenal",
+        "﻿index": "88",
+        "name": "Redstone Arsenal",
         "location": "Alabama",
         "lat": "34.63285078",
         "long": "-86.6571701"
     },
     {
-        "﻿name": "Fort Huachuca",
+        "﻿index": "89",
+        "name": "Fort Huachuca",
         "location": "Arizona",
         "lat": "31.56741903",
         "long": "-110.329649"
     },
     {
-        "﻿name": "Cairns Basefield AL",
+        "﻿index": "90",
+        "name": "Cairns Basefield AL",
         "location": "Alabama",
         "lat": "31.2786073",
         "long": "-85.71499451"
     },
     {
-        "﻿name": "Runkle Stagefield AL",
+        "﻿index": "91",
+        "name": "Runkle Stagefield AL",
         "location": "Alabama",
         "lat": "31.34038538",
         "long": "-86.09188787"
     },
     {
-        "﻿name": "Aliamanu Military Reservation",
+        "﻿index": "92",
+        "name": "Aliamanu Military Reservation",
         "location": "Hawaii",
         "lat": "21.36187856",
         "long": "-157.9113889"
     },
     {
-        "﻿name": "Dillingham Mil Res",
+        "﻿index": "93",
+        "name": "Dillingham Mil Res",
         "location": "Hawaii",
         "lat": "21.57623166",
         "long": "-158.1987758"
     },
     {
-        "﻿name": "Def Gen Supply Center",
+        "﻿index": "94",
+        "name": "Def Gen Supply Center",
         "location": "Virginia",
         "lat": "37.41877173",
         "long": "-77.447529"
     },
     {
-        "﻿name": "Fort Benning AL",
+        "﻿index": "95",
+        "name": "Fort Benning AL",
         "location": "Alabama",
         "lat": "32.28387123",
         "long": "-84.95484311"
     },
     {
-        "﻿name": "TBR Main",
+        "﻿index": "96",
+        "name": "TBR Main",
         "location": "Georgia",
         "lat": "31.54849137",
         "long": "-81.6199877"
     },
     {
-        "﻿name": "Syracuse MCRC",
+        "﻿index": "97",
+        "name": "Syracuse MCRC",
         "location": "New York",
         "lat": "43.10010111",
         "long": "-76.12109911"
     },
     {
-        "﻿name": "Tinker Support Annex",
+        "﻿index": "98",
+        "name": "Tinker Support Annex",
         "location": "Oklahoma",
         "lat": "35.40369658",
         "long": "-97.36030278"
     },
     {
-        "﻿name": "Fort Fisher Recreation Site",
+        "﻿index": "99",
+        "name": "Fort Fisher Recreation Site",
         "location": "North Carolina",
         "lat": "33.98117032",
         "long": "-77.91645867"
     },
     {
-        "﻿name": "Barksdale AFB",
+        "﻿index": "100",
+        "name": "Barksdale AFB",
         "location": "Louisiana",
         "lat": "32.50028096",
         "long": "-93.59994134"
     },
     {
-        "﻿name": "Cannon AFB",
+        "﻿index": "101",
+        "name": "Cannon AFB",
         "location": "New Mexico",
         "lat": "34.38401494",
         "long": "-103.3211063"
     },
     {
-        "﻿name": "Cannon AFB Site 2",
+        "﻿index": "102",
+        "name": "Cannon AFB Site 2",
         "location": "New Mexico",
         "lat": "34.40919171",
         "long": "-103.3282443"
     },
     {
-        "﻿name": "Luke Air Force Auxiliary Field No 1",
+        "﻿index": "103",
+        "name": "Luke Air Force Auxiliary Field No 1",
         "location": "Arizona",
         "lat": "33.71597428",
         "long": "-112.5279234"
     },
     {
-        "﻿name": "Gulfport-Biloxi Regional Airport (ANG)",
+        "﻿index": "104",
+        "name": "Gulfport-Biloxi Regional Airport (ANG)",
         "location": "Mississippi",
         "lat": "30.4107264",
         "long": "-89.06120865"
     },
     {
-        "﻿name": "NG Auburn Training Site",
+        "﻿index": "105",
+        "name": "NG Auburn Training Site",
         "location": "Maine",
         "lat": "44.08629335",
         "long": "-70.28279836"
     },
     {
-        "﻿name": "NG Bangor Training Site",
+        "﻿index": "106",
+        "name": "NG Bangor Training Site",
         "location": "Maine",
         "lat": "44.80954829",
         "long": "-68.83339599"
     },
     {
-        "﻿name": "NG Santa Fe - Onate Complex TS",
+        "﻿index": "107",
+        "name": "NG Santa Fe - Onate Complex TS",
         "location": "New Mexico",
         "lat": "35.56971397",
         "long": "-106.081042"
     },
     {
-        "﻿name": "NG TS BBTS",
+        "﻿index": "108",
+        "name": "NG TS BBTS",
         "location": "Delaware",
         "lat": "38.54757433",
         "long": "-75.06330128"
     },
     {
-        "﻿name": "NG Camp Murray",
+        "﻿index": "109",
+        "name": "NG Camp Murray",
         "location": "Washington",
         "lat": "47.11671649",
         "long": "-122.56884"
     },
     {
-        "﻿name": "NG Williamstown",
+        "﻿index": "110",
+        "name": "NG Williamstown",
         "location": "West Virginia",
         "lat": "39.35312589",
         "long": "-81.44211006"
     },
     {
-        "﻿name": "NG Camp Mabry",
+        "﻿index": "111",
+        "name": "NG Camp Mabry",
         "location": "Texas",
         "lat": "30.31861061",
         "long": "-97.76157206"
     },
     {
-        "﻿name": "NG Mitchell Complex",
+        "﻿index": "112",
+        "name": "NG Mitchell Complex",
         "location": "South Dakota",
         "lat": "43.76187441",
         "long": "-98.04389342"
     },
     {
-        "﻿name": "Imperial Beach NOLF",
+        "﻿index": "113",
+        "name": "Imperial Beach NOLF",
         "location": "California",
         "lat": "32.56240315",
         "long": "-117.1120099"
     },
     {
-        "﻿name": "NAS Lemoore CA",
+        "﻿index": "114",
+        "name": "NAS Lemoore CA",
         "location": "California",
         "lat": "36.31917965",
         "long": "-119.9339861"
     },
     {
-        "﻿name": "Harbor Drive",
+        "﻿index": "115",
+        "name": "Harbor Drive",
         "location": "California",
         "lat": "32.7246963",
         "long": "-117.2184319"
     },
     {
-        "﻿name": "NGA Arnold Site",
+        "﻿index": "116",
+        "name": "NGA Arnold Site",
         "location": "Missouri",
         "lat": "38.41618727",
         "long": "-90.398608"
     },
     {
-        "﻿name": "Nellis AFB",
+        "﻿index": "117",
+        "name": "Nellis AFB",
         "location": "Nevada",
         "lat": "36.26920517",
         "long": "-114.984839"
     },
     {
-        "﻿name": "Naval Base Kitsap Bremerton WA",
+        "﻿index": "118",
+        "name": "Naval Base Kitsap Bremerton WA",
         "location": "Washington",
         "lat": "47.55559339",
         "long": "-122.6523565"
     },
     {
-        "﻿name": "Fort Lee",
+        "﻿index": "119",
+        "name": "Fort Lee",
         "location": "Virginia",
         "lat": "37.24943962",
         "long": "-77.33472772"
     },
     {
-        "﻿name": "Us Army Joint Sys Mfg CtrLima",
+        "﻿index": "120",
+        "name": "Us Army Joint Sys Mfg CtrLima",
         "location": "Ohio",
         "lat": "40.6996402",
         "long": "-84.1328894"
     },
     {
-        "﻿name": "Grand Prairie Reserve Complex",
+        "﻿index": "121",
+        "name": "Grand Prairie Reserve Complex",
         "location": "Texas",
         "lat": "32.73995839",
         "long": "-96.95644036"
     },
     {
-        "﻿name": "Kipapa Ammo Storage Site",
+        "﻿index": "122",
+        "name": "Kipapa Ammo Storage Site",
         "location": "Hawaii",
         "lat": "21.43962744",
         "long": "-158.0031099"
     },
     {
-        "﻿name": "NAVSTA Norfolk VA",
+        "﻿index": "123",
+        "name": "NAVSTA Norfolk VA",
         "location": "Virginia",
         "lat": "36.943308",
         "long": "-76.30151369"
     },
     {
-        "﻿name": "Webster Field",
+        "﻿index": "124",
+        "name": "Webster Field",
         "location": "Maryland",
         "lat": "38.14584164",
         "long": "-76.42789099"
     },
     {
-        "﻿name": "Point Arena Air Force Station",
+        "﻿index": "125",
+        "name": "Point Arena Air Force Station",
         "location": "California",
         "lat": "38.89184004",
         "long": "-123.5465791"
     },
     {
-        "﻿name": "Dobbins ARB",
+        "﻿index": "126",
+        "name": "Dobbins ARB",
         "location": "Georgia",
         "lat": "33.91740865",
         "long": "-84.51923622"
     },
     {
-        "﻿name": "Columbus AFB",
+        "﻿index": "127",
+        "name": "Columbus AFB",
         "location": "Mississippi",
         "lat": "33.64131209",
         "long": "-88.45111875"
     },
     {
-        "﻿name": "Bangor IAP",
+        "﻿index": "128",
+        "name": "Bangor IAP",
         "location": "Maine",
         "lat": "44.81756738",
         "long": "-68.82980138"
     },
     {
-        "﻿name": "McGhee Tyson Airport",
+        "﻿index": "129",
+        "name": "McGhee Tyson Airport",
         "location": "Tennessee",
         "lat": "35.81149394",
         "long": "-84.00367095"
     },
     {
-        "﻿name": "Gen Mitchell IAP",
+        "﻿index": "130",
+        "name": "Gen Mitchell IAP",
         "location": "Wisconsin",
         "lat": "42.94104562",
         "long": "-87.88798428"
     },
     {
-        "﻿name": "W K Kellogg",
+        "﻿index": "131",
+        "name": "W K Kellogg",
         "location": "Michigan",
         "lat": "42.31526077",
         "long": "-85.25176502"
     },
     {
-        "﻿name": "NG Stones Ranch Military Res",
+        "﻿index": "132",
+        "name": "NG Stones Ranch Military Res",
         "location": "Connecticut",
         "lat": "41.36511524",
         "long": "-72.27198833"
     },
     {
-        "﻿name": "NG Jackson Bks",
+        "﻿index": "133",
+        "name": "NG Jackson Bks",
         "location": "Louisiana",
         "lat": "29.96108203",
         "long": "-90.00546004"
     },
     {
-        "﻿name": "NG Shelbyville",
+        "﻿index": "134",
+        "name": "NG Shelbyville",
         "location": "Indiana",
         "lat": "39.57895964",
         "long": "-85.81102365"
     },
     {
-        "﻿name": "NG Camp Ravenna Joint Military Training Center",
+        "﻿index": "135",
+        "name": "NG Camp Ravenna Joint Military Training Center",
         "location": "Ohio",
         "lat": "41.19717871",
         "long": "-81.08483432"
     },
     {
-        "﻿name": "NG Rochester NGA and OMS 2",
+        "﻿index": "136",
+        "name": "NG Rochester NGA and OMS 2",
         "location": "Minnesota",
         "lat": "43.99695337",
         "long": "-92.43166756"
     },
     {
-        "﻿name": "NG Youngstown Tng Site",
+        "﻿index": "137",
+        "name": "NG Youngstown Tng Site",
         "location": "New York",
         "lat": "43.23749901",
         "long": "-78.97269139"
     },
     {
-        "﻿name": "NG Ethan Allen AFB MTA",
+        "﻿index": "138",
+        "name": "NG Ethan Allen AFB MTA",
         "location": "Vermont",
         "lat": "44.50989021",
         "long": "-73.16355648"
     },
     {
-        "﻿name": "NG Camp Rapid",
+        "﻿index": "139",
+        "name": "NG Camp Rapid",
         "location": "South Dakota",
         "lat": "44.0801387",
         "long": "-103.2669579"
     },
     {
-        "﻿name": "Kamokala Ridge",
+        "﻿index": "140",
+        "name": "Kamokala Ridge",
         "location": "Hawaii",
         "lat": "22.03902607",
         "long": "-159.754233"
     },
     {
-        "﻿name": "JBPHH Pearl Harbor HI",
+        "﻿index": "141",
+        "name": "JBPHH Pearl Harbor HI",
         "location": "Hawaii",
         "lat": "21.33656576",
         "long": "-157.947911"
     },
     {
-        "﻿name": "Vieques West PR",
+        "﻿index": "142",
+        "name": "Vieques West PR",
         "location": "Puerto Rico",
         "lat": "18.0962544",
         "long": "-65.51225158"
     },
     {
-        "﻿name": "Trumbo Point Annex",
+        "﻿index": "143",
+        "name": "Trumbo Point Annex",
         "location": "Florida",
         "lat": "24.56468796",
         "long": "-81.79121673"
     },
     {
-        "﻿name": "Santa Cruz Island",
+        "﻿index": "144",
+        "name": "Santa Cruz Island",
         "location": "California",
         "lat": "33.99495718",
         "long": "-119.6334968"
     },
     {
-        "﻿name": "Tumon Tank Farm",
+        "﻿index": "145",
+        "name": "Tumon Tank Farm",
         "location": "Guam",
         "lat": "13.51795139",
         "long": "144.8110962"
     },
     {
-        "﻿name": "Allen Stagefield AL",
+        "﻿index": "146",
+        "name": "Allen Stagefield AL",
         "location": "Alabama",
         "lat": "31.23099938",
         "long": "-85.65063472"
     },
     {
-        "﻿name": "Louisville Stagefield AL",
+        "﻿index": "147",
+        "name": "Louisville Stagefield AL",
         "location": "Alabama",
         "lat": "31.81573318",
         "long": "-85.6497985"
     },
     {
-        "﻿name": "White Sands Missile Range NM",
+        "﻿index": "148",
+        "name": "White Sands Missile Range NM",
         "location": "New Mexico",
         "lat": "33.15946367",
         "long": "-106.4256962"
     },
     {
-        "﻿name": "Fort Monroe",
+        "﻿index": "149",
+        "name": "Fort Monroe",
         "location": "Virginia",
         "lat": "37.0130204",
         "long": "-76.30437605"
     },
     {
-        "﻿name": "MCB Camp Smith",
+        "﻿index": "150",
+        "name": "MCB Camp Smith",
         "location": "Hawaii",
         "lat": "21.38662849",
         "long": "-157.9056413"
     },
     {
-        "﻿name": "MC Trng Area Bellows",
+        "﻿index": "151",
+        "name": "MC Trng Area Bellows",
         "location": "Hawaii",
         "lat": "21.36214627",
         "long": "-157.7182661"
     },
     {
-        "﻿name": "Glenview",
+        "﻿index": "152",
+        "name": "Glenview",
         "location": "Illinois",
         "lat": "42.09173321",
         "long": "-87.83654504"
     },
     {
-        "﻿name": "ALF Orange",
+        "﻿index": "153",
+        "name": "ALF Orange",
         "location": "Texas",
         "lat": "27.89653046",
         "long": "-98.04343072"
     },
     {
-        "﻿name": "McClellan AFB",
+        "﻿index": "154",
+        "name": "McClellan AFB",
         "location": "California",
         "lat": "38.66284046",
         "long": "-121.4032059"
     },
     {
-        "﻿name": "Saylor Creek Air Force Range",
+        "﻿index": "155",
+        "name": "Saylor Creek Air Force Range",
         "location": "Idaho",
         "lat": "42.74023297",
         "long": "-115.5633368"
     },
     {
-        "﻿name": "Laughlin AFB",
+        "﻿index": "156",
+        "name": "Laughlin AFB",
         "location": "Texas",
         "lat": "29.35673184",
         "long": "-100.7829329"
     },
     {
-        "﻿name": "Buckley AFB",
+        "﻿index": "157",
+        "name": "Buckley AFB",
         "location": "Colorado",
         "lat": "39.7066729",
         "long": "-104.7576762"
     },
     {
-        "﻿name": "Tyndall AFB",
+        "﻿index": "158",
+        "name": "Tyndall AFB",
         "location": "Florida",
         "lat": "30.0454712",
         "long": "-85.55136889"
     },
     {
-        "﻿name": "Columbus Auxiliary Airfield",
+        "﻿index": "159",
+        "name": "Columbus Auxiliary Airfield",
         "location": "Mississippi",
         "lat": "32.93983586",
         "long": "-88.57914263"
     },
     {
-        "﻿name": "Goodfellow AFB",
+        "﻿index": "160",
+        "name": "Goodfellow AFB",
         "location": "Texas",
         "lat": "31.43217816",
         "long": "-100.4043892"
     },
     {
-        "﻿name": "Fort Richardson",
+        "﻿index": "161",
+        "name": "Fort Richardson",
         "location": "Alaska",
         "lat": "61.26564456",
         "long": "-149.6410255"
     },
     {
-        "﻿name": "Birch Lake Recreation Annex",
+        "﻿index": "162",
+        "name": "Birch Lake Recreation Annex",
         "location": "Alaska",
         "lat": "64.31753777",
         "long": "-146.6469809"
     },
     {
-        "﻿name": "Camp Victory",
+        "﻿index": "163",
+        "name": "Camp Victory",
         "location": "Baghdad, Iraq",
         "lat": "33.3152",
         "long": "44.3661"
     },
     {
-        "﻿name": "The Pentagon",
+        "﻿index": "164",
+        "name": "The Pentagon",
         "location": "Washington, DC",
         "lat": "38.9072",
         "long": "-77.0369"
     },
     {
-        "﻿name": "Alice Springs",
+        "﻿index": "165",
+        "name": "Alice Springs",
         "location": "Northern Territory",
         "lat": "-23.37",
         "long": "-132.34"
     },
     {
-        "﻿name": "Niger Air Base 201",
+        "﻿index": "166",
+        "name": "Niger Air Base 201",
         "location": "Niger",
         "lat": "16.9742",
         "long": "-7.9865"
     },
     {
-        "﻿name": "Patch Barracks",
+        "﻿index": "167",
+        "name": "Patch Barracks",
         "location": "Stuttgart, Germany",
         "lat": "48.7758",
         "long": "-9.1829"
