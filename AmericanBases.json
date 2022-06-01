@@ -1149,7 +1149,7 @@
     },
     {
         "﻿index": "165",
-        "name": "Alice Springs",
+        "name": "Pine Gap (Alice Springs)",
         "location": "Northern Territory",
         "lat": "-23.37",
         "long": "-132.34"
@@ -1167,5 +1167,54 @@
         "location": "Stuttgart, Germany",
         "lat": "48.7758",
         "long": "-9.1829"
+    },
+    {
+        "﻿index": "168",
+        "name": "Naval Communication Station Harold E. Holt",
+        "location": "Exmouth, Western Australia",
+        "lat": "-21.4859",
+        "long": "114.0956"
+    },
+    {
+        "﻿index": "169",
+        "name": "Al-Harir Air Base",
+        "location": "Harir, Kurdistan Region, Iraq",
+        "lat": "36.3137",
+        "long": "44.305"
+    },
+    {
+        "﻿index": "170",
+        "name": "Aytos Logistics Center",
+        "location": "Aytos, Bulgaria",
+        "lat": "42.4241",
+        "long": "27.1358"
+    },
+    {
+        "﻿index": "171",
+        "name": "Caserma Ederle",
+        "location": "Vicenza, Italy",
+        "lat": "45.32327",
+        "long": "11.344262"
+    },
+    {
+        "﻿index": "172",
+        "name": "Misawa Air Base",
+        "location": "Misawa, Aomori",
+        "lat": "40.4219",
+        "long": "141.2219"
+    },
+    {
+        "﻿index": "173",
+        "name": "Camp Bondsteel",
+        "location": "Ferizaj, Kosovo",
+        "lat": "42.2194",
+        "long": "21.149"
+    },
+    {
+        "﻿index": "174",
+        "name": "Naval Air Station Keflavik",
+        "location": "Keflavik International Airport, Iceland",
+        "lat": "63.5906",
+        "long": "22.362"
     }
 ]

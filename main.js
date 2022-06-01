@@ -19,7 +19,7 @@ readTextFile("https://raw.githubusercontent.com/ArshSiddiqui/TheSunNeverSetsOnTh
 	var data = JSON.parse(text);
 	console.log(text);
 	var timeout = 1000;
-	for (let i = 0; i < 168; i++) { //Don't run with this, will mess with the API
+	for (let i = 0; i < 175; i++) { //Don't run with this, will mess with the API
 		delay(i, timeout, data[i].lat, data[i].long, data[i].name);
 		timeout += 2000
 		//setTimeout ( () => {
