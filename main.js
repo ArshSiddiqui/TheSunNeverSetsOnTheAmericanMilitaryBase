@@ -19,13 +19,23 @@ readTextFile("https://raw.githubusercontent.com/ArshSiddiqui/TheSunNeverSetsOnTh
 	var data = JSON.parse(text);
 	console.log(text);
 	var timeout = 1000;
-	for (let i = 0; i <= 50; i++) { //Don't run with this, will mess with the API
-		setTimeout ( () => {
-			setFireToTheSun(data[i].lat, data[i].long, data[i].name);
-			timeout += 1000;
-		}, timeout)
+	for (let i = 0; i < 50; i++) { //Don't run with this, will mess with the API
+		delay(i, timeout, data[i].lat, data[i].long, data[i].name);
+		timeout += 2000
+		//setTimeout ( () => {
+		//	console.log("Hello, World!");
+			//setFireToTheSun(data[i].lat, data[i].long, data[i].name);
+			//timeout += 1000;
+		//}, 1000);
 	}
 })
+
+function delay(i, t, lat, lng, nme) {
+	setTimeout ( () => {
+			console.log("At spot " + i);
+			setFireToTheSun(lat, lng, nme);
+	}, t);
+}
 
 /*setTimeout(() => {  setFireToTheSun('33.3152', '44.3661', 'Camp Victory, Baghdad, Iraq'); }, 1000);
 setTimeout(() => { setFireToTheSun('38.9072', '-77.0369', 'The Pentagon, Washington, DC');  }, 2000);
