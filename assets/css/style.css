@@ -96,6 +96,11 @@ select {
 	margin-top: 1rem;
 }
 
+#comment {
+	font-family: "Georgia", Times, Serif;
+	font-size: 14px;
+}
+
 .militaryBases {
 	max-width: 75ch;
 	margin: 2rem auto;
